@@ -4,7 +4,7 @@
  * This theme is Copyright (C) 2018 Tobias Krauthoff <tobias.krauthoff@metronom.com>
  */
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
+ @import url('https://fonts.googleapis.com/css?family=Lato');
  /*@import url('https://fonts.googleapis.com/css?family=Fira+Sans');*/
 .reveal a {
      line-height: 1.3em; }
@@ -334,7 +334,8 @@ body.dark .reveal h6 {
 .reveal table td {
      text-align: left;
      padding: 0.2em 0.5em 0.2em 0.5em;
-     border-bottom: 1px solid; }
+     /*border-bottom: 1px solid;*/
+     }
  
 .reveal table th[align="center"],
 .reveal table td[align="center"] {
