@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -7,22 +7,22 @@
 
 	<title>Dive Deep into Argumentation Theory</title>
 
-	<link rel="stylesheet" href="./css/fontawesome-5.4.1.all.css">
-	<link rel="stylesheet" href="./css/reveal.css">
-	<link rel="stylesheet" href="./css/metronom.css">
-	<link rel="stylesheet" href="./css/clock.css">
-	<link rel="stylesheet" href="./css/pin.css">
+	<link rel="stylesheet" href="css/fontawesome-5.4.1.all.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/metronom.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/clock.css">
+	<link rel="stylesheet" href="css/pin.css">
 
-	<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
 	<link rel="icon" href="img/favicon.png" type="image/png" />
 </head>
 
 <body class="dark">
 	<div class="reveal">
 		<div id="footer">
-			<img id="footer-left" src="./img/metronom-white.png">
-			<img id="footer-right" src="./img/codetalks-white.png">
-		</div>
+			<img alt="" id="footer-left" src="img/metronom-white.png">
+			<img alt="" id="footer-right" src="img/codetalks-white.png">
+    </div>
 
 		<div class="slides">
 
@@ -37,7 +37,7 @@
 			</section>
 			-->
 
-			<section class="center" data-background-image="./img/codetalks-bg.png">
+			<section class="center" data-background-image="img/codetalks-bg.png">
 				<span>Dr. Tobias Krauthoff</span>
 				<br><br>
 				<h2 style="margin: 0;">Dive Deep into Argumentation Theory</h2>
@@ -46,10 +46,14 @@
 				<aside class="notes">
 					Who am I: FKOP -> DIID -> PhD -> METROnom
 					<br><br>
-					Online discussions in a larger scale<br>
-					- structure<br>
-					- unskilled participants<br>
-					- scaling
+					Online discussions in a larger scale
+					<ul>
+            <li>structure of user's contributions often lack structure</li>
+            <li>overload of information</li>
+						<li>filter bubbles</li>
+						<li>current tools not usable for unskilled participants</li>
+						<li>tools do not scale with the amount of users</li>
+					</ul>
 				</aside>
 			</section>
 
@@ -58,39 +62,31 @@
 				<h3>Who am I?</h3>
 				<div class="center">
 					<a href="https://www.fortschrittskolleg.de/en/">
-						<img class="white-box" style="height: 4.0em;" src="img/logo-fkop.png">
+						<img alt="" class="white-box" style="height: 4.0em;" src="img/logo-fkop.png">
 					</a>
 					<a href="https://diid.hhu.de/en/">
-						<img class="white-box" style="height: 4.0em;" src="img/logo-diid-short.png">
+						<img alt="" class="white-box" style="height: 4.0em;" src="img/logo-diid-short.png">
 					</a>
 					<a href="https://www.tsn.hhu.de/ourgroup/alumni/tobias-krauthoff.html">
-						<img class="white-box" style="height: 4.0em;" src="img/phd-tux.png">
+						<img alt="" class="white-box" style="height: 4.0em;" src="img/phd-tux.png">
 					</a>
 					<a href="https://www.metronom.com/">
-						<img class="white-box" style="height: 4.0em;" src="img/logo-metronom.jpg">
+						<img alt="" class="white-box" style="height: 4.0em;" src="img/logo-metronom.jpg">
 					</a>
 				</div>
 			</section>
+			-->
 
 			<section>
-				<h3>Introduction</h3>
-				<ul>
-					<li>Online discussions in a larger scale</li>
-					<li>Solving current problems like:
-						<ul>
-							<li>Structure</li>
-							<li>Unskilled participants</li>
-							<li>Scale with the amount of users</li>
-						</ul>
-					</li>
-					<li>New approach for online discussions</li>
-				</ul>
+        <h3>Scope of this Talk</h3>
+        <ul>
+          <li>Citizens are not happy with decision processes</li>
+          <li>Democratic representatives might not always be sufficient</li>
+          <li>Citizens want to participate actively on decisions</li>
+					<li>Stuttgart 21 $\rightarrow$ Train station at Hamburg Altona</li>
+					<br>
+        </ul>
 			</section>
-
-			<section data-background-color="#5EC299">
-				<h2>Let's Dive</h2>
-			</section>
-			-->
 
 			<section>
 				<h3>Motivation</h3>
@@ -114,7 +110,14 @@
 					</li>
 					<li>Origins in epistemology</li>
 					<li>Many kinds of argumentation</li>
-				</ul>
+        </ul>
+        <div style="height: 200px; position: absolute; top: 3em; right: 6em;">
+          <img alt="" src="img/calvin.jpg" style="border: 2px solid black">
+          <span class="center" style="font-size: 0.3em; color: gray;">
+            https://www.planetminecraft.com/blog/<br>
+            sexism-in-minecraft--how-to-deal-<br>
+            with-thembe-one-a-boys-perspective/</span>
+        </div>
 				<aside class="notes">
 					Interdisciplinary study: philosophy & mathematics
 					<br><br>
@@ -125,13 +128,13 @@
 			</section>
 
 			<section>
-				<h3>Offline</h3>
+				<h3>Offline Discussions</h3>
 				<div class="center">
-					<img class="svg-box" src="img/placeholder.svg">
-					<img class="svg-box" src="img/placeholder.svg">
-					<img class="svg-box" src="img/user.svg">
-					<img class="svg-box" src="img/gesture.svg">
-					<img class="svg-box" src="img/note.svg">
+					<img alt="" class="svg-box" src="img/placeholder.svg">
+					<img alt="" class="svg-box" src="img/placeholder.svg">
+					<img alt="" class="svg-box" src="img/user.svg">
+					<img alt="" class="svg-box" src="img/gesture.svg">
+					<img alt="" class="svg-box" src="img/note.svg">
 					<div class="clock-container" data-url="https://codepen.io/sashatran/pen/OWbJzG">
 						<div class="clock">
 							<div class="analog"></div>
@@ -149,28 +152,31 @@
 				</div>
 				<br><br>
 				<div class="fragment fade-in">
-					<h3>Online</h3>
+					<h3>Online Discussions</h3>
 					<div class="center">
-							<img class="svg-box" src="img/phone.svg">
-						<img class="svg-box" src="img/group.svg">
-						<img class="svg-box" src="img/cloud.svg">
+            <img alt="" class="svg-box" src="img/phone.svg">
+						<img alt="" class="svg-box" src="img/group.svg">
+						<img alt="" class="svg-box" src="img/cloud.svg">
 					</div>
 				</div>
 				<aside class="notes">
-					Offline:<br>
-					- bound to place and time<br>
-					- face-to-face, small groups<br>
-					- gestures, mimics, tone<br>
-					<br>
-					Online:<br>
-					- independent of time and placement<br>
-					- large number of participants<br>
-					- multiple solutions for discussions
+					Offline:
+					<ul>
+						<li>bound to place and time</li>
+						<li>face-to-face, small groups</li>
+						<li>gestures, mimics, tone</li>
+					</ul>
+					Online:
+					<ul>
+						<li>independent of time and placement</li>
+						<li>large number of participants</li>
+						<li>multiple solutions for discussions</li>
+					</ul>
 				</aside>
 			</section>
 
 			<section>
-				<h3>Advantages & Disadvantages</h3>
+				<h3>Benefits and their Costs</h3>
 				<table class="center seamless-table" id="custom-list-type-table">
 					<tr>
 						<td>
@@ -207,8 +213,19 @@
 				<ul>
 					<li>Many communities</li>
 					<li>Different software approaches</li>
-					<li>IBM: Watson and Debater</li>
+					<li>IBM:
+						<ul>
+						<li><span style="float: left; width: 5em;">Deep Blue</span> (<a href="http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/">HTML</a>, <a href="https://www.youtube.com/embed/wdns2fVUEeE">YouTube</a>)</li>
+						<li><span style="float: left; width: 5em;">Watson</span> (<a href="https://www.ibm.com/watson/">HTML</a>, <a href="https://www.youtube.com/embed/3e22ufcqfTs">YouTube</a>)</li>
+						<li><span style="float: left; width: 5em;">Debater</span> (<a href="https://www.research.ibm.com/artificial-intelligence/project-debater/">HTML</a>, <a href="https://www.youtube.com/embed/UeF_N1r91RQ">YouTube</a>)</li>
+						</ul>
+					</li>
 				</ul>
+				<br><br>
+				<div style="height: 200px; position: absolute; top: 3em; right: 6em;">
+					<img alt="" src="img/logo-watson.png">
+				</div>
+				<!--
 				<br>
 				<br>
 				<div style="display: flex;">
@@ -216,7 +233,7 @@
 						<p class="metronom-green center">IBM Watson (2014)</p>
 						<iframe id="watson-frame" class="center" width="400" height="225" src="https://www.youtube.com/embed/3e22ufcqfTs" frameborder="0"
 						 allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						 <img id="watson-img" src="img/watson.png">
+						 <img alt="" id="watson-img" src="img/watson.png">
 						<small class="center">
 							<a href="https://www.ibm.com/watson/">https://www.ibm.com/watson/</a>
 						</small>
@@ -225,32 +242,48 @@
 						<p class="metronom-green center">IBM Debater (2018)</p>
 						<iframe id="debater-frame" class="center" width="400" height="225" src="https://www.youtube.com/embed/UeF_N1r91RQ" data-ibm="UeF_N1r91RQ"
 						 data-cnet="naQujxmg9gg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<img id="debater-img" src="img/debater.png">
+						<img alt="" id="debater-img" src="img/debater.png">
 						<small class="center">
 							<a href="https://www.research.ibm.com/artificial-intelligence/project-debater/">https://www.research.ibm.com/artificial-intelligence/project-debater/</a>
 						</small>
 					</div>
 				</div>
+				-->
 				<aside class="notes">
-					Communites: AAAI, IJCAI, COMMA, AI*IA, ...
+					Communities: AAAI, IJCAI, COMMA, AI*IA, ...
+					<br><br>
+					Deep Blue (Chess) -> Watson (Jeopardy)
+					<br><br>
+					From Calculation to  Understanding
+					<br><br>
+					Debater:
+					<ul>
+						<li>Goal: Argumentation like a human!</li>
+						<li>Data: Corpus of ~300M articles</li>
+						<li>Corpus cleaning</li>
+						<li>Indexing & analysis</li>
+						<li>Knowledge Graph</li>
+						<li>Debate & rebuttal construction</li>
+						<li>Not open source / No platform / No service</li>
+					</ul>
 				</aside>
 			</section>
 
 			<section>
 				<h3>Lists & Threads</h3>
-				<img src="img/phpbb.png" class="center" style="max-height: 550px;">
+				<img alt="" src="img/phpbb.png" class="center" style="max-height: 550px;">
 				<br>
 				<small class="center">Software: <a href="https://www.phpbb.com/">phpBB 3.2</a></small>
 				<aside class="notes">
 					Pro: well-known, low initial hurdle
 					<br><br>
-					Con: structure, scalibility, redundancy, polarization
+					Con: structure, relation, scalibility, redundancy, polarization
 				</aside>
 			</section>
 
 			<section>
 				<h3>Structured Lists & Threads</h3>
-				<img src="img/considerit.png" class="center" style="max-height: 550px;">
+				<img alt="" src="img/considerit.png" class="center" style="max-height: 550px;">
 				<br>
 				<small class="center">Software: <a href="https://consider.it/">ConsiderIt</a></small>
 				<aside class="notes">
@@ -262,7 +295,7 @@
 
 			<section>
 				<h3>Argumentation Maps</h3>
-				<img src="img/bcivise.png" class="center" style="max-height: 550px;">
+				<img alt="" src="img/bcivise.png" class="center" style="max-height: 550px;">
 				<br>
 				<small class="center">Software: <a href="https://www.bcisiveonline.com/">bCivise</a></small>
 				<aside class="notes">
@@ -279,6 +312,7 @@
 					<li><span class="metronom-logo-yellow">System</span> is a representative of users that already participated</li>
 					<li><span class="metronom-logo-yellow">Input</span> of other users are the base of new discussion</li>
 					<li><span class="metronom-logo-yellow">Conducting</span> a dialog with a current user</li>
+					<li>Combine with <span class="metronom-logo-yellow">argumentation theory</span></li>
 				</ul>
 			</section>
 
@@ -294,11 +328,11 @@
 				<br><br>
 				<h3><span class="fragment fade-in metronom-red">Is it usable for unskilled participants?</span></h3>
 				<aside class="notes">
-					Deductive argumentation: incomplete arguments & inference rules
+					Deductive argumentation: incomplete arguments & inference rules <i>(process of reasoning from one or more statements (premises) to reach a logically certain conclusion)</i>
 					<br><br>
-					Probabilistic reasons: probabilistic reason-relation maintained in another argument
+					Probabilistic reasons: probabilistic reason-relation maintained in another argument <i>(group of theories that aim to characterize the relationship between cause and effect)</i>
 					<br><br>
-					Defeasible reasons: attacking and defeating
+					Defeasible reasons: attacking and defeating <i>(the reasoning does not produce a full, complete, or final demonstration of a claim)</i>
 				</aside>
 			</section>
 
@@ -307,38 +341,46 @@
 			</section>
 
 			<section>
-				<h3>Let's take it easy</h3>
+				<h3>Flow of Argumentation</h3>
 				<div style="height: 300px">
 					<!--
-					<img data-fragment-index="1" class="fragment fade-out" style="position: absolute" src="img/flow.svg">
+					<img alt="" data-fragment-index="1" class="fragment fade-out" style="position: absolute" src="img/flow.svg">
 					-->
-					<img data-fragment-index="1" class="fragment fade-out" style="position: absolute" src="img/flow_1.svg">
-					<img data-fragment-index="1" class="fragment fade-in-then-out" style="position: absolute" src="img/flow_2.svg">
-					<img data-fragment-index="2" class="fragment fade-in" style="position: absolute" src="img/flow_3.svg">
+					<img alt="" data-fragment-index="1" class="fragment fade-out" style="position: absolute" src="img/flow_1.svg">
+					<img alt="" data-fragment-index="1" class="fragment fade-in-then-out" style="position: absolute" src="img/flow_2.svg">
+					<img alt="" data-fragment-index="2" class="fragment fade-in" style="position: absolute" src="img/flow_3.svg">
 				</div>
 			</section>
 
 			<section>
 				<h3>Dialog-Based Argumentation System</h3>
-				<iframe id="dbas-frame" class="center" width="1200" height="550" style="max-width: 110%!important" seamless src="https://dbas.cs.uni-duesseldorf.de/discuss/improve-the-course-of-computer-science-studies/reaction/295/rebut/297?history=/attitude/299-/justify/299/agree-/reaction/295/rebut/412-/reaction/295/rebut/311"></iframe>
+				<iframe id="dbas-frame" class="center" width="1200" height="550" style="max-width: 100%!important" src="https://dbas.cs.uni-duesseldorf.de/discuss/improve-the-course-of-computer-science-studies/reaction/295/rebut/297?history=/attitude/299-/justify/299/agree-/reaction/295/rebut/412-/reaction/295/rebut/311"></iframe>
 				<div id="dbas-img" class="center" >
-					<img src="img/dbas.png">
+					<img alt="" src="img/dbas.png">
 				</div>
 				<br>
 				<small class="center">
-					<a href="https://dbas.cs.hhu.de">https://dbas.cs.hhu.de</a> & <a href="https://github.com/hhucn">https://github.com/hhucn</a>
+					<a href="https://dbas.cs.uni-duesseldorf.de/discuss/improve-the-course-of-computer-science-studies">
+						https://dbas.cs.hhu.de
+					</a> & 
+					<a href="https://github.com/hhucn">
+						https://github.com/hhucn
+					</a>
+					<a style="position: absolute; bottom: 1em; right: 1em;" href="https://dbas.cs.uni-duesseldorf.de/discuss/improve-the-course-of-computer-science-studies/reaction/295/rebut/297?history=/attitude/299-/justify/299/agree-/reaction/295/rebut/412-/reaction/295/rebut/311">
+						<i class="fas fa-external-link-alt"></i>
+					</a>
 				</small>
 			</section>
 
 			<section>
-				<h3>Where is the AT-part?</h3>
+				<h3>Where is the Theory?</h3>
 				<ul>
 					<li>Display</li>
 					<li>Bootstrap</li>
 					<li class="fragment highlight-metronom-logo-yellow" data-fragment-index="1">Feedback</li>
 					<li class="fragment highlight-metronom-logo-yellow" data-fragment-index="1">Navigation</li>
 					<li>Input</li>
-					<li class="fragment fade-in metronom-logo-yellow">Practical use of argumentation theory and maps!</li>
+					<li class="fragment metronom-logo-yellow" data-fragment-index="1">Practical use of argumentation theory and maps!</li>
 				</ul>
 			</section>
 
@@ -347,34 +389,31 @@
 			</section>
 
 			<section>
-				<h3>Theory basics</h3>
+				<h3>Theory Basics</h3>
 				<ul>
-					<li>Toulmin</li>
-					<li>Dung</li>
-					<li>Aspic+</li>
-					<li>...</li>
+					<li>Schema like Toulmin</li>
+					<li>Framework of:
+						<ul>
+							<li>Dung</li>
+							<li>Aspic+</li>
+							<li>...</li>
+						</ul>
+					</li>
 				</ul>
 				<aside class="notes">
 					Toulmin (Philosopher): Schema from 1958
 					<br><br>
 					Dung: Correctness of arguments / only attacks / special form of logic programming with negation as failure
 					<br><br>
-					ASPIC on top of Dung: <br>
-					- conflicts between arguments are often resolved with explicit preferences<br>
-					- arguments are built inference rules: strict or deductive
+					ASPIC on top of Dung:
+					<ul>
+						<li>conflicts between arguments are often resolved with explicit preferences</li>
+						<li>arguments are built inference rules: strict or deductive</li>
+					</ul>
 				</aside>
 			</section>
-
-			<!--
 			<section>
-				<h3>Theory Basics of AA</h3>
-				An abstract argumentation framework $(AF)$ is a pair $(A,D)$, where $A$ is a set of $arguments$ and $D \subseteq A
-				\times A$ is a binary relation of $attacks$.
-			</section>
-			-->
-
-			<section>
-				<h3>Theory Basics of AA: Aspic+</h3>
+				<h3>Aspic+</h3>
 				An abstract argumentation framework $(AF)$ is a pair $(A,D)$, where $A$ is a set of $arguments$ and $D \subseteq A
 				\times A$ is a binary relation of $defeat$.
 				<span class="fragment fade-in">We say that $A$ strictly defeats $B$ if $A$ defeats $B$ while $B$ does
@@ -382,12 +421,12 @@
 				and defend themselves against attacks.</span>
 				<br><br>
 				<div class="center fragment fade-in" style="height: 350px">
-					<img src="img/af.svg">
+					<img alt="" src="img/af.svg">
 				</div>
 			</section>
 
 			<section>
-				<h3>Theory Basics of AA: Extensions</h3>
+				<h3>Aspic+ Extensions</h3>
 				Let $\left(A,D\right)$ be an AF. $\forall X \in A, X$ is acceptable with respect to some $S \subseteq A$
 				iff $\forall Y$ s. t. $(Y,X) \in D \Rightarrow \exists Z \in S$ s. t. $(Z,Y) \in D$.
 				<br><br>
@@ -407,7 +446,6 @@
 							complete extension;</li>
 						<li>S is a <em class="metronom-logo-yellow">stable</em> extension iff it is preferred and $\forall Y \notin S,
 							\exists X \in S$ s. t. $(X,Y) \in D$.</li>
-						</li>
 					</ul>
 				</div>
 				<br><br>
@@ -419,7 +457,7 @@
 			<section>
 				<h3>The Easy Approach</h3>
 				<div style="height: 450px">
-					<img style="position: absolute" src="img/argument.svg">
+					<img alt="" style="position: absolute" src="img/argument.svg">
 				</div>
 				<aside class="notes">
 					Practical approach<br>
@@ -436,6 +474,7 @@
 			<section>
 				<h3>And now?</h3>
 				<ul>
+					<li>Approach used by D-BAS</li>
 					<li>Embedding structured discussions in any website</li>
 					<li>Using <span class="metronom">D-BAS</span> as execution platform for social bots</li>
 					<li>Network of argument providers</li>
@@ -445,7 +484,7 @@
 			<section>
 				<h1 class="metronom-logo-yellow">Any questions?</h1>
 				<br>
-				<table class="center" border="0">
+				<table class="center">
 					<tr>
 						<td class="center"><i class="fab fa-twitter metronom-blue"></i></td>
 						<td><a href="https://twitter.com/joinmetronomnow">@joinmetronomnow</a></td>
@@ -458,17 +497,16 @@
 						<td class="center"><i class="fa fa-tv metronom-blue" style="font-size: 0.8em;"></i></td>
 						<td><a href="http://tiny.cc/ddat">http://tiny.cc/ddat</a></td>
 					</tr>
-					</tr>
 				</table>
 			</section>
 
 		</div>
 	</div>
 
-	<script src="./js/print.js"></script>
-	<script src="./js/jquery-3.3.1.slim.min.js"></script>
-	<script src="./js/head.min.js"></script>
-	<script src="./js/reveal.js"></script>
+	<script src="js/print.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
 	<script>
 		// More info https://github.com/hakimel/reveal.js#configuration
@@ -477,24 +515,18 @@
 			controls: false,
 			history: true,
 			center: true,
-			//slideNumber: true,
+			slideNumber: 'c/t',
+			showSlideNumber: 'speaker',
 			transition: 'fade', // none/fade/slide/convex/concave/zoom
 
 			// More info https://github.com/hakimel/reveal.js#dependencies
 			dependencies: [
 				{
-					src: './js/notes.js',
+					src: 'js/notes.js',
 					async: true
 				}, {
-					src: './js/math.js',
+					src: 'js/math.js',
 					async: true
-				},
-				{
-					src: './js/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
 				}
 			]
 		})
@@ -513,14 +545,15 @@
 
 		}, 1000);
 
+		
 		if ( window.location.search.match( /print-pdf/gi ) ) {
 			$('#dbas-frame').remove();
-			$('#watson-frame').remove();
-			$('#debater-frame').remove();
+			//$('#watson-frame').remove();
+			//$('#debater-frame').remove();
 		} else {
 			$('#dbas-img').remove();
-			$('#watson-img').remove();
-			$('#debater-img').remove();
+			//$('#watson-img').remove();
+			//$('#debater-img').remove();
 		}
 
 		var footer = $('#footer').html();
